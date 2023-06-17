@@ -1,2 +1,0 @@
-# Dictionary
-The Dictionary App
