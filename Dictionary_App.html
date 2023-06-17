@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="Dictionary_App.css">
+</head>
+<body>
+    <div class="information-word">
+        <div class="container">
+            <form action="">
+                <input type="text" placeholder="Write The Word">
+                <input type="submit" value="Search">
+            </form>
+            <div class="word-container">
+                <div class="word-sound">
+                    <div class="word"></div>
+                    <i class="fa-solid fa-headphones sound"></i>
+                    <audio src=""></audio>
+                </div>
+                <p class="type"></p>
+                <p class="information"></p>
+                <div class="example"></div>
+            </div>
+            <div class="error">Couldn't Find The Word</div>
+        </div>
+    </div>
+    <script src="Dictionary_App.js"></script>
+</body>
+</html>
